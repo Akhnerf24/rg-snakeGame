@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+    </style>
+</head> 
+<body onload="draw();">
+    <h1>Snake Game</h1>
+    <img id="apple" style="display: none;" width="20" height="20" src="assets/apple.png" alt="apple">
+    <img id="snake" style="display: none;" width="20" height="20" src="assets/snake.png"alt="snake">
+    <img id="body" style="display: none;" width="20" height="20" src="assets/body.png" alt="body">
+    <div id="containerBoard">
+        <canvas id="snakeBoard" width="500" height="500" style="border:1px solid #000000;"></canvas>
+        <canvas id="scoreBoard" width="100" height="100" style="border:1px solid #000000;"></canvas>
+        <canvas id="currentlevel" width="100" height="100" style="border:1px solid #000000;"></canvas>
+        <canvas id="speed" width="150" height="100" style="border:1px solid #000000;"></canvas>
+    </div>
+    
+</body>
+</html>
